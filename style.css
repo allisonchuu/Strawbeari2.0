@@ -122,10 +122,12 @@ video {
     height: 100vh;
     display: flex;
     justify-content: left;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: -400px;
     transition: 350ms;
+    z-index: 2;
+    ;
 }
 
 .menubars {
@@ -233,7 +235,7 @@ video {
         height: 100vh;
         display: flex;
         justify-content: center;
-        position: fixed;
+        position: absolute;
         top: 0;
         right: 100vw;
         z-index: 2;
